@@ -42,6 +42,9 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
+            <div className="row">
+                <p className="text-center text-danger">Copyright <span>&copy;</span>2021 EYE-CARE. Designed By Rashedul Islam</p>
+            </div>
         </div>
     );
 };

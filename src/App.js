@@ -4,6 +4,9 @@ import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Header from './Pages/Header/Header';
 import Homes from './Pages/Home/Homes/Homes';
 import Footer from './Pages/Home/Footer/Footer';
+import TotalService from './Pages/Main/Service/TotalServices/TotalService'
+import ServiceDetails from './Pages/Main/Service/ServiceDetails/ServiceDetails';
+import About from './Pages/About/About';
 
 function App() {
   return (
@@ -16,6 +19,15 @@ function App() {
                     </Route>
                     <Route path="/homes">
                           <Homes></Homes>
+                    </Route>
+                    <Route path="/about">
+                          <About></About>
+                    </Route>
+                    <Route path="/services">
+                          <TotalService></TotalService>
+                    </Route>
+                    <Route path="/servicedetails/:id">
+                          <ServiceDetails></ServiceDetails>
                     </Route>
                </Switch>
                <Footer></Footer>

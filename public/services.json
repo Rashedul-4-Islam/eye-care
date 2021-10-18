@@ -1,0 +1,65 @@
+[
+    {
+        "id":"ser1",
+        "name":"Retina Repair",
+        "img":"https://templates.hibootstrap.com/opnix/default/assets/images/services/main1.jpg",
+        "cost": 15,
+        "description": "If not treated quickly, a retinal detachment can cause you to lose your vision. Retinal detachment repair is a surgery that is used to restore circulation to the retina and preserve vision."
+    },
+    {
+        "id":"ser2",
+        "name":"Surgical Procedure",
+        "cost": 10,
+        "img":"https://templates.hibootstrap.com/opnix/default/assets/images/services/main5.jpg",
+        "description": "The act of performing surgery may be called a surgical procedure, operation, or simply surgery"
+    },
+    {
+        "id":"ser3",
+        "name":"Laser Surgery",
+        "img":"https://templates.hibootstrap.com/opnix/default/assets/images/services/main6.jpg",
+        "cost": 25,
+        "description": "Laser surgery is a type of surgery that uses a laser to cut tissue. Laser surgery is commonly used on the eye."
+    },
+    {
+        "id":"ser4",
+        "name":"Cornea Transplant",
+        "img":"https://templates.hibootstrap.com/opnix/default/assets/images/services/main4.jpg",
+        "cost": 250,
+        "description": "A cornea transplant is an operation to remove all or part of a damaged cornea and replace it with healthy donor tissue. It can be used to improve sight, relieve pain and treat severe infection or damage."
+    },
+    {
+        "id":"ser5",
+        "name":"Glaucoma & Cornea",
+        "img":"https://templates.hibootstrap.com/opnix/default/assets/images/services/main2.jpg",
+        "cost": 13,
+        "description": "The thinner the cornea the higher risk of developing glaucoma. The thinner corneas are also associated with an increased severity of visual field loss and a more rapid progression of the disease."
+    },
+    {
+        "id":"ser6",
+        "name":"Dry Eye Surgery",
+        "img":"https://templates.hibootstrap.com/opnix/default/assets/images/services/main3.jpg",
+        "cost": 21,
+        "description": "A procedure called punctal occlusion can be used to permanently or temporarily close off your tear drainage channels, allowing you to retain your own natural tears, without the need for eye drops."
+    },
+    {
+        "id":"ser7",
+        "name":"Contact Lenses",
+        "img":"https://themetechmount.com/html/optrica/images/services/services-01-768x512.jpg",
+        "cost": 17,
+        "description": "Contact lenses, or simply contacts, are thin lenses placed directly on the surface of the eyes. Contact lenses are ocular prosthetic devices used by over 150 million people worldwide, and they can be worn to correct vision or for cosmetic or therapeutic reasons."
+    },
+    {
+        "id":"ser8",
+        "name":"Phakic Lens",
+        "img":"https://themetechmount.com/html/optrica/images/services/services-04-768x512.jpg",
+        "cost": 14,
+        "description": "Phakic intraocular lenses, or phakic lenses, are lenses made of plastic or silicone that are implanted into the eye permanently to reduce a person's need for glasses or contact lenses. Phakic refers to the fact that the lens is implanted into the eye without removing the eye's natural lens. During phakic lens implantation surgery, a small incision is made in the front of the eye."
+    },
+    {
+        "id":"ser9",
+        "name":"Comprehansive",
+        "img":"https://themetechmount.com/html/optrica/images/services/services-02-768x512.jpg",
+        "cost": 39,
+        "description": "Comprehensive Services is a team approach to serving families that are enrolled with the Head Start program. ... The services include: health, nutrition, mental health, social skills, disabilities, and early childhood education services."
+    }
+]

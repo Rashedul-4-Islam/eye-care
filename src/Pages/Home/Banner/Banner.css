@@ -3,3 +3,14 @@
     justify-content: left;
     margin-bottom: 180px;
 }
+.head{
+    opacity: 0.7;
+    height:500px;
+}
+
+@media only screen and (max-width: 600px){
+    .head{
+        width: 100vw;
+        height: 50vh;
+    }
+}

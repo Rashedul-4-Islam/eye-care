@@ -1,0 +1,29 @@
+.ability{
+    background-color: rgb(245, 243, 241);
+     height: 100vh;
+     padding-top: 20px;
+}
+.title{
+    width: 75%;
+    color: navy;
+}
+.image{
+    height: 90vh;
+}
+.heading{
+    background-color: hotpink;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    transform: scale3d(0.7);
+}
+
+@media only screen and (max-width: 600px){
+    .ability{
+        height: 100%;
+    }
+    .heading{
+        width: 70%;
+    }
+}

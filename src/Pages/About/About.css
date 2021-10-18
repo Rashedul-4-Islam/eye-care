@@ -1,0 +1,17 @@
+.bg-image{
+    background-image: url(https://www.spindeleye.com/wp-content/uploads/2019/02/GettyImages-930864180.jpg);
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+}
+
+@media only screen and (max-width: 600px) {
+.bg-image{
+    background-repeat: no-repeat;
+    background-size:100vw;
+    width: 100vw;
+    height: 60vh;
+}
+  }

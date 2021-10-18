@@ -1,0 +1,10 @@
+.service-card{
+    border-radius: 20px;
+      box-shadow: 5px 10px 10px rgb(136, 136, 136);   
+}
+.description{
+  white-space: nowrap; 
+  width: 300px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
