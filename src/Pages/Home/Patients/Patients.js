@@ -13,8 +13,8 @@ const Patients = () => {
                         </p>
                 </div>
             </div>
-            <div className="row contain">
-                <div className="col-12 col-md-3 single-patient">
+            <div className=" contain">
+                <div className="single-patient">
                     <div className="d-flex">
                         <img className="w-25" src="https://themetechmount.com/html/optrica/images/testimonial/01.jpg" alt="" />
                         <div className="ms-4">
@@ -27,7 +27,7 @@ const Patients = () => {
                         <p className="text-start">was very impressive how easy & fast it was the Dr.Optrica.They came up with what was going to be the best for me, staff provide great service</p>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-3 single-patient">
+                <div className="single-patient">
                 <div className="d-flex">
                         <img className="w-25" src="https://themetechmount.com/html/optrica/images/testimonial/02.jpg" alt="" />
                         <div className="ms-4">
@@ -40,7 +40,7 @@ const Patients = () => {
                         <p className="text-start">was very impressive with they treat the patiens.How easy and fast process for the team . I am so thankful for that great behaviour</p>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-3 single-patient">
+                <div className=" single-patient">
                 <div className="d-flex">
                         <img className="w-25" src="https://themetechmount.com/html/optrica/images/testimonial/03.jpg" alt="" />
                         <div className="ms-4">

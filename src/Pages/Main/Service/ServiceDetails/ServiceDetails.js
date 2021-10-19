@@ -26,7 +26,8 @@ const ServiceDetails = () => {
             <h3>{ExactItem[0]?.name}</h3>
             <p className="w-75 m-auto">{ExactItem[0]?.description}</p>
             <p className="mt-3 fw-bold">Treatment-Cost:$ {ExactItem[0]?.cost}</p>
-            <Link to="/services" className="btn btn-danger mt-3 px-5">Back</Link>
+            <Link to="/services" className="btn btn-danger mt-3 mx-3"><span><i className="fas fa-backward"></i></span></Link>
+            <Link to="/homes" className="btn btn-danger mt-3"><span><i className="fas fa-home"></i></span></Link>
             </div>
         </div>
     );

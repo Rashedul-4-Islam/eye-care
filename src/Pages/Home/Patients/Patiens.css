@@ -26,6 +26,8 @@
 .contain{
     margin-top: -40px;
     margin-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
   
 }
 
@@ -34,8 +36,8 @@
         background-size: 100vw;
     }
     .contain{
-        margin-top: 0px;
-        margin-left: 0px;
+        margin:20px 40px;      
+       grid-template-columns: repeat(1,1fr);
     }
     .single-patient{
         margin-right: 0px;

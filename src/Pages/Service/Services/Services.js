@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import SingleService from '../SingleService/SingleService';
 import './Services.css'
 
@@ -20,6 +21,7 @@ const Services = () => {
                    ></SingleService>)
                 }
             </div>
+            <Link to="/services" className="btn btn-danger mt-3">See More Services</Link>
         </div>
     );
 };

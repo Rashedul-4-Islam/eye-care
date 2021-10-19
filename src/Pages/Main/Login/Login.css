@@ -1,0 +1,29 @@
+.login{
+    background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+    width: 100vw;
+    height: 90vh;
+}
+.form-size{
+    width: 25%;
+}
+.input-size{
+    width: 75%;
+    text-align: center;
+    margin-left: 40px;
+}
+
+
+@media only screen and (max-width: 600px){ 
+   .login{
+       background-size:100vw 100vh;
+       width: 100vw;
+       height: 100vh;
+   }
+   .form-size{
+       width: 90vw;
+   }
+
+}

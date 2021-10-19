@@ -2,9 +2,32 @@
     background-image: url(https://www.spindeleye.com/wp-content/uploads/2019/02/GettyImages-930864180.jpg);
     background-position:initial;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
     width: 100vw;
     height: 60vh;
+}
+.choose{
+    background-color: rgb(218, 217, 216);
+
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    margin: 20px;
+   
+}
+.item{
+    border-radius: 10px;
+    background-color: wheat;
+}
+.item:hover{
+    background-color: rgb(238, 20, 20);
+}
+.images{
+    width: 50%;
+    height: 30vh;
+    border-radius: 50%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -13,5 +36,10 @@
     background-size:100vw;
     width: 100vw;
     height: 60vh;
-}
   }
+  .items{
+      grid-template-columns: repeat(1,1fr);
+      grid-row-gap: 20px;
+  }
+
+}

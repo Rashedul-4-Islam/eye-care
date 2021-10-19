@@ -7,10 +7,17 @@ import Footer from './Pages/Home/Footer/Footer';
 import TotalService from './Pages/Main/Service/TotalServices/TotalService'
 import ServiceDetails from './Pages/Main/Service/ServiceDetails/ServiceDetails';
 import About from './Pages/About/About';
+import NotFound from './Pages/Main/NotFound/NotFound';
+import Register from './Pages/Main/Register/Register';
+import Login from './Pages/Main/Login/Login';
+import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import Doctors from './Pages/Doctors/Doctors';
 
 function App() {
   return (
     <div className="App">
+         <AuthProvider>
          <Router>
               <Header></Header>
                <Switch>
@@ -23,15 +30,28 @@ function App() {
                     <Route path="/about">
                           <About></About>
                     </Route>
+                    <Route path="/doctors">
+                          <Doctors></Doctors>
+                    </Route>
                     <Route path="/services">
                           <TotalService></TotalService>
                     </Route>
-                    <Route path="/servicedetails/:id">
+                    <PrivateRoute path="/servicedetails/:id">
                           <ServiceDetails></ServiceDetails>
+                    </PrivateRoute>
+                    <Route path="/register">
+                          <Register></Register>
+                    </Route>
+                    <Route path="/login">
+                          <Login></Login>
+                    </Route>
+                    <Route path="*">
+                          <NotFound></NotFound>
                     </Route>
                </Switch>
                <Footer></Footer>
          </Router>
+         </AuthProvider>
     </div>
   );
 }
