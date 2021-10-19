@@ -1,7 +1,7 @@
 .caption{
     display: flex;
     justify-content: left;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .head{
     opacity: 0.7;

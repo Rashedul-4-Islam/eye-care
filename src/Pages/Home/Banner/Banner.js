@@ -14,7 +14,7 @@ const Banner = () => {
                 />
                 <Carousel.Caption>
                 <h2 className="fw-bold w-75">Eye Care Specialist Services That You Can Trust</h2>
-                <p  className="fw-bold"> Your doctor will make the best effort possible to diagnose eye condition.</p>
+                <p  className="fw-bold "> Your doctor will make the best effort possible to diagnose eye condition.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -25,7 +25,7 @@ const Banner = () => {
                 />
                 <Carousel.Caption>
                 <h2 className="fw-bold fs-2 w-75">High Innovation Propessional Eye Care</h2>
-                <p  className="fw-bold">we value our patients’ overall health and encourage our patients to visit their primary care doctor annually.</p>
+                <p  className="fw-bold w-75">we value our patients’ overall health and encourage our patients to visit their primary care doctor annually.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -37,7 +37,7 @@ const Banner = () => {
                 <Carousel.Caption className="caption">
                     <div>
                     <h2 className="fw-bold fs-2 w-75">We Only Give Best Care To Your Eyes</h2>
-                   <p className="fw-bold">Get basics solution for the daily life problems and soother experience of the eye related queries by experts.</p>
+                   <p className="fw-bold w-75">Get basics solution for the daily life problems and soother experience of the eye related queries by experts.</p>
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
