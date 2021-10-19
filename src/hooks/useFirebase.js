@@ -10,8 +10,9 @@ const useFirebase = () =>{
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
    
-    const googleProvider = new GoogleAuthProvider();
+    const googleProvider = new GoogleAuthProvider(); 
 
+    
     const handleEmailChange =(e) =>{
         setEmail(e.target.value);
     } 
