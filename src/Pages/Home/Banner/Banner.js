@@ -4,7 +4,6 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div>
             <Carousel variant="dark">
             <Carousel.Item>
                 <img 
@@ -42,7 +41,6 @@ const Banner = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>
-        </div>
     );
 };
 

@@ -6,7 +6,7 @@ const Patients = () => {
         <div className="my-5 py-3 heights">
             <div className="patients">
                 <div className="overlays text-center">
-                        <h2 className="fw-bolder">What Our Patiens Say!</h2>
+                        <h2 className="fw-bolder">What Our Patients Say!</h2>
                         <div className="w-25 m-auto text-light"> <hr /></div>
                         <p>
                         What a wonderful experience with Optrica! Your doctor will make the best effort possible to diagnose eye condition.
