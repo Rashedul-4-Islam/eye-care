@@ -8,10 +8,10 @@
     position: fixed;
     width: 100%;
 }
-.headers{
+.headerss{
     padding-bottom: 90px;
 }
-.buttons{
+.buttonss{
     display: flex;
 }
 
@@ -23,10 +23,10 @@
        position:sticky;
        width: 100%;
     }
-    .headers{
+    .headerss{
         padding-bottom: 0px;
     }
-    .buttons{
+    .buttonss{
         width: 100%;
     }
 }

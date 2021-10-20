@@ -13,7 +13,7 @@ const Doctors = () => {
                 <h3 className="text-info"><span className="text-primary fs-2"><i className="fas fa-user-md"></i></span> Doctors</h3>
                 <h1 className="fw-bold">Eye Care Specialist</h1>
             </div>
-            <div className="row">
+            <div className="row doctors">
                 <div className="col-12 col-md-4 p-5">
                     <img className="bg-doctor" src="./images/doctors/doctor1.png" alt="" />
                     <h2>Dr. Jolian Acenj</h2>

@@ -10,7 +10,7 @@ const Services = () => {
         .then(data => setServices(data))
     },[])
     return (
-        <div className="bg-warning">
+        <div className="total">
             <div className="bg-img ">
                  <div className="overlay d-flex align-items-center justify-content-center">
                  <h2 className="fw-bold text-center ">Services</h2>

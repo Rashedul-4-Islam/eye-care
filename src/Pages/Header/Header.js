@@ -7,7 +7,7 @@ import './Header.css'
 const Header = () => {
     const {user,logOut} = useAuth();
     return (
-        <div className="headers">
+        <div className="headerss">
             <Navbar collapseOnSelect expand="lg" className="background" variant="dark">
             <Container>
             <Navbar.Brand href="#home" className="fw-bold fs-3">EYE <span><i className="fas fa-eye"></i></span> CARE <span className="fs-6 d-block">HOSPITAL</span></Navbar.Brand>
@@ -25,7 +25,7 @@ const Header = () => {
                     <img className="w-50 rounded-pill" src={user?.photoURL} alt="" />
                 </div>
                   
-                  <div className="buttons">
+                  <div className="buttonss">
                   {
                             user.displayName ? <p className="text-light me-3 mt-3">{user?.displayName} </p>
                             :
@@ -42,7 +42,6 @@ const Header = () => {
                     }
                   
                   </div>
-               
                 </nav>
             </Navbar.Collapse>
             </Container>

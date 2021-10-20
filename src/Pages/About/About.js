@@ -6,7 +6,7 @@ const About = () => {
         <div className="abouts ">
             <div className="bg-image">
                 <div className="overlay">
-                    <h2 className="text-center">About</h2>
+                    <h2 className="text-center fw-bold">About</h2>
                 </div>
             </div>
 
