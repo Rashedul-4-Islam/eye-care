@@ -12,7 +12,7 @@ const Services = () => {
     },[])
     return (
         <div className="my-5">
-            <h2 className="fw-bold text-center">Services</h2>
+            <h2 className="fw-bold text-center bg-warning w-25 m-auto p-2 rounded-pill">Services</h2>
             <div className="cards">
                 {
                    services.slice(0,6).map(service => <SingleService

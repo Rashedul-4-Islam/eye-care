@@ -1,3 +1,4 @@
+
 .bg-image{
     background-image: url(https://www.spindeleye.com/wp-content/uploads/2019/02/GettyImages-930864180.jpg);
     background-position:initial;
@@ -41,5 +42,13 @@
       grid-template-columns: repeat(1,1fr);
       grid-row-gap: 20px;
   }
+
+.abouts{
+    width: 100vw;
+    margin-left: 20px;
+}
+.about-text{
+    width: 90vw;
+}
 
 }

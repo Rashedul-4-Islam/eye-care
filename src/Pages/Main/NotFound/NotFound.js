@@ -5,10 +5,10 @@ import './NotFound.css'
 const NotFound = () => {
     return (
         <div>
-            <img className="not-found" src="https://support.start.me/hc/article_attachments/360001139105/404_page_not_found.jpeg" alt="" />
-            <div className="mb-5">
+            <img className="not-found" src="https://image.freepik.com/free-vector/glitch-error-404-page-background_23-2148088043.jpg" alt="" />
+            {/* <div className="mb-5">
             <Link to="/homes" className="btn btn-primary fw-bold text-light mt-3 px-5">Home</Link>
-            </div>
+            </div> */}
         </div>
     );
 };

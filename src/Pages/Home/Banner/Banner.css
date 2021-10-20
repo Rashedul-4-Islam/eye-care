@@ -3,14 +3,24 @@
     justify-content: left;
     margin-bottom: 20px;
 }
-.head{
-    opacity: 0.7;
+.banner {
     height:500px;
+    
+}
+.details h2{
+    font-size: 4rem;
+    color:rgb(6, 7, 7);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 100px;
 }
 
 @media only screen and (max-width: 600px){
     .head{
         width: 100vw;
         height: 50vh;
+    }
+    .details h2{
+        font-size: 2rem;
+        margin-left: 20px;
     }
 }

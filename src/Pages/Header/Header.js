@@ -24,7 +24,9 @@ const Header = () => {
                 <div>
                     <img className="w-50 rounded-pill" src={user?.photoURL} alt="" />
                 </div>
-                        {
+                  
+                  <div className="buttons">
+                  {
                             user.displayName ? <p className="text-light me-3 mt-3">{user?.displayName} </p>
                             :
                             <p className="text-light me-3 mt-2">{user?.email}</p>
@@ -39,6 +41,7 @@ const Header = () => {
                         </div>
                     }
                   
+                  </div>
                
                 </nav>
             </Navbar.Collapse>

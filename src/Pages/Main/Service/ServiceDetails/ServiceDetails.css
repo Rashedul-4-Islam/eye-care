@@ -3,3 +3,10 @@
     box-shadow: 5px 10px 10px rgb(136, 136, 136); 
     width: 40vw;
   }
+
+  @media only screen and (max-width: 600px){
+    .single-card{
+      width: 90vw;
+      height: 80vh;
+    }
+  }

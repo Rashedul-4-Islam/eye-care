@@ -9,3 +9,12 @@
 .headers{
     padding-bottom: 43px;
 }
+.buttons{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px){
+    .buttons{
+        margin-left: 70px;
+    }
+}

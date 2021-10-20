@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div>
+        <div className="abouts">
             <div className="bg-image">
                 <div className="overlay">
                     <h2 className="text-center">About</h2>
@@ -15,9 +15,11 @@ const About = () => {
                     <img className="w-75 rounded-pill" src="https://templates.hibootstrap.com/opnix/default/assets/images/about/main2.jpg" alt="" />
                 </div>
                 <div className="col-md-6 my-5 text-start">
-                    <h5>About us</h5>
+                   <div className="about-text">
+                   <h5>About us</h5>
                     <h2>We Are Caring For Your Eye Health Hospital</h2>
                     <p>Primary eye care is the provision of appropriate, accessible, and affordable care that meets patients' eye care needs in a comprehensive and competent manner. Primary eye care provides the patient with the first contact for eye care as well as a lifetime of continuing care.</p>
+                   </div>
                     <div className="row mt-5">
                         <div className="col-md-6">
                             <p><span><i className="fas fa-check-circle"></i></span> Conducts eye health checkups</p>
