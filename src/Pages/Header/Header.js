@@ -7,8 +7,8 @@ import './Header.css'
 const Header = () => {
     const {user,logOut} = useAuth();
     return (
-        <div className="headers mb-5">
-            <Navbar fixed="top" collapseOnSelect expand="lg" className="background" variant="dark">
+        <div className="headers">
+            <Navbar collapseOnSelect expand="lg" className="background" variant="dark">
             <Container>
             <Navbar.Brand href="#home" className="fw-bold fs-3">EYE <span><i className="fas fa-eye"></i></span> CARE <span className="fs-6 d-block">HOSPITAL</span></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

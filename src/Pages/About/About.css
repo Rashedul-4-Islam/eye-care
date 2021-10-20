@@ -44,8 +44,8 @@
   }
 
 .abouts{
-    width: 100vw;
-    margin-left: 20px;
+    width: 90vw;
+    /* margin-left: 20px; */
 }
 .about-text{
     width: 90vw;

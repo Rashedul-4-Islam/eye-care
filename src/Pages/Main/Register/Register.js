@@ -41,7 +41,7 @@ const Register = () => {
                         </p>
                     </form>
                     <div className="text-light mt-2">------------------OR-------------------</div>
-                    <button onClick={handleGoogleLogin} className="btn btn-warning mt-2 fw-bold">Sign In With Google</button>
+                    <button onClick={handleGoogleLogin} className="btn btn-warning mt-2 fw-bold"><span><i className="fab fa-google"></i></span> Sign In With Google</button>
                 </div>
                
             </div>

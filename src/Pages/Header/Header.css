@@ -5,9 +5,11 @@
 }
 .background{
     background-color: rgba(1, 1, 39, 0.945);
+    position: fixed;
+    width: 100%;
 }
 .headers{
-    padding-bottom: 43px;
+    padding-bottom: 90px;
 }
 .buttons{
     display: flex;
@@ -16,5 +18,15 @@
 @media only screen and (max-width: 600px){
     .buttons{
         margin-left: 70px;
+    }
+    .background{
+       position:sticky;
+       width: 100%;
+    }
+    .headers{
+        padding-bottom: 0px;
+    }
+    .buttons{
+        width: 100%;
     }
 }
