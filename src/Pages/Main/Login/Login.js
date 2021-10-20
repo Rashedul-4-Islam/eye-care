@@ -33,8 +33,8 @@ const Login = () => {
                         <input onBlur={handlePasswordChange} className="form-control" type="password" placeholder="Enter your password" required />
                         <div className="text-danger mt-3">{error}</div>
                         <br />
-                        <input  onClick={handleLogin} className="btn btn-danger ms-4 px-5 fw-bold" type="submit" value="Login" />
-                        <p>
+                        <input  onClick={handleLogin} className="btn btn-danger log-button px-4 fw-bold" type="submit" value="Login" />
+                        <p className="text-center">
                         Have you an Account?
                         <Link to="/register" className="text-decoration-none">Register Now</Link>
                         </p>

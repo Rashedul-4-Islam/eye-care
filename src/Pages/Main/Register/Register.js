@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link,useLocation,useHistory } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import './Register.css'
 
 const Register = () => {
 
@@ -23,8 +24,12 @@ const Register = () => {
            
             <div className="login pt-5">
             <h3 className="fw-bold ">Register</h3>
-                <div className=" mb-5 p-3 py-5  bg-dark m-auto rounded form-size">
+                <div className=" mb-5 p-3 py-5  bg-dark m-auto rounded register-form">
                     <form onSubmit={handleRegistration} action="" className="text-start text-light mb-6 ms-5 input-size">
+                        <label className="fw-bold" htmlFor="">Name</label>
+                        <br />
+                        <input  className="form-control" type="text" placeholder="Enter your Name" />
+                        <br />
                         <label className="fw-bold" htmlFor="">Email</label>
                         <br />
                         <input onBlur={handleEmailChange} className="form-control" type="email" placeholder="Enter your email" />
@@ -34,8 +39,8 @@ const Register = () => {
                         <input onBlur={handlePasswordChange} className="form-control" type="password" placeholder="Enter your password" />
                         <div className="text-danger mt-3">{error}</div>
                         <br />
-                        <input  className="btn btn-danger ms-4 px-5 fw-bold" type="submit" value="Submit" />
-                        <p>
+                        <input  className="btn btn-danger log-button fw-bold" type="submit" value="Submit" />
+                        <p className="text-center">
                         Already Have an Account?
                         <Link to="/login" className="text-decoration-none">Log In</Link>
                         </p>
