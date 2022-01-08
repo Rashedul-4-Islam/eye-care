@@ -1,6 +1,6 @@
 .patients{
     background-image: url(https://thumbs.dreamstime.com/b/mother-child-eye-clinic-children-ophthalmology-optometrist-checks-child-s-eye-horizontal-88771407.jpg);
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     background-position: center;
     background-size: cover;
@@ -11,7 +11,7 @@
     background: rgba(35, 71, 139, 0.9); 
     color: #f5eeee;
     text-align: start;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     padding: 100px 50px;
   }

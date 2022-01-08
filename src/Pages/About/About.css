@@ -1,10 +1,13 @@
-.bg-image{
+.overlay{
     background-image: url(https://www.spindeleye.com/wp-content/uploads/2019/02/GettyImages-930864180.jpg);
+    width: 100%;
     background-position:initial;
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    width: 100vw;
+    background-size: 100vw;
     height: 60vh;
+}
+.abouts{
+    width: 100%;
 }
 .choose{
     background-color: rgb(218, 217, 216);
@@ -33,8 +36,8 @@
 @media only screen and (max-width: 600px) {
 .bg-image{
     background-repeat: no-repeat;
-    background-size:100vw;
-    width: 100vw;
+    background-size:100%;
+    width: 100%;
     height: 60vh;
   }
   .items{

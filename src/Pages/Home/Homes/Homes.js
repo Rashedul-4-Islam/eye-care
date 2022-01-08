@@ -3,10 +3,11 @@ import Services from '../../Service/Services/Services';
 import Ability from '../Ability/Ability';
 import Banner from '../Banner/Banner';
 import Patients from '../Patients/Patients';
+import './Homes.css'
 
 const Homes = () => {
     return (
-        <div>
+        <div className='homes_width'>
             <Banner></Banner>
             <Services></Services>
             <Ability></Ability>

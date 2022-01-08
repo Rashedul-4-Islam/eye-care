@@ -3,18 +3,18 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="abouts ">
+        <div className="abouts">
             <div className="bg-image">
                 <div className="overlay">
                     <h2 className="text-center fw-bold">About</h2>
                 </div>
             </div>
 
-            <div className="row my-4">
+            <div className="row my-4 container-fluid">
                 <div className="col-md-6">
                     <img className="w-75 rounded-pill" src="https://templates.hibootstrap.com/opnix/default/assets/images/about/main2.jpg" alt="" />
                 </div>
-                <div className="col-md-6 my-5 text-start">
+                <div className="col-md-6 py-5 text-start">
                    <div className="about-text">
                    <h5>About us</h5>
                     <h2>We Are Caring For Your Eye Health Hospital</h2>
@@ -34,7 +34,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-5 choose py-5">
+            <div className="mt-5 choose py-5 container-fluid text-center">
                 <h5>Why Choose Us</h5>
                 <h1 className="text-success fw-bold">Providing Care For The <span className="text-danger">Sickest</span></h1>
                 <div className="items">

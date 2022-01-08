@@ -19,7 +19,7 @@ const Login = () => {
   
     return (
         <div>
-            <div className="login pt-5">
+            <div className="login pt-5 text-center">
                 <h3 className="fw-bold">Log In</h3>
                 <div className=" mb-5 p-3 py-5  bg-dark m-auto rounded form-size">
                     <form action="" className="text-start text-light input-size">

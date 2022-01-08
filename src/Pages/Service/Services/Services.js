@@ -11,8 +11,9 @@ const Services = () => {
         .then(data => setServices(data))
     },[])
     return (
-        <div className="my-5">
-            <h2 className="fw-bold text-center bg-warning w-25 m-auto p-2 rounded-pill">Services</h2>
+        <div className="my-5 text-center">
+           <div>
+           <h2 className="fw-bold text-center bg-warning w-25 m-auto p-2 rounded-pill">Services</h2>
             <div className="cards">
                 {
                    services.slice(0,6).map(service => <SingleService
@@ -22,6 +23,7 @@ const Services = () => {
                 }
             </div>
             <Link to="/services" className="btn btn-danger mt-3">See More Services</Link>
+           </div>
         </div>
     );
 };

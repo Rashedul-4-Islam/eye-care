@@ -22,7 +22,7 @@ const Register = () => {
     return (
         <div>
            
-            <div className="login pt-5">
+            <div className="login pt-5 text-center">
             <h3 className="fw-bold ">Register</h3>
                 <div className=" mb-5 p-3 py-5  bg-dark m-auto rounded register-form">
                     <form onSubmit={handleRegistration} action="" className="text-start text-light mb-6 ms-5 input-size">

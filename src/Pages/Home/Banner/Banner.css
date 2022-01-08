@@ -16,7 +16,7 @@
 
 @media only screen and (max-width: 600px){
     .head{
-        width: 100vw;
+        width: 100%;
         height: 50vh;
     }
     .details h2{
